@@ -4,7 +4,7 @@ import threading
 from pya3 import *
 import mysql.connector
 
-db = mysql.connector.connect(host="localhost", user="shrey", passwd="ate818awry100", database="testdatabase")
+db = mysql.connector.connect(host="", user="", passwd="", database="")
 mycursor = db.cursor()
 app = Flask(__name__,template_folder='template')
 
